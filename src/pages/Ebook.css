@@ -1,0 +1,45 @@
+#section6 {
+  font-size: 62.5%;
+  height: 100vh;
+  background-image: url('/background3.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+#section6 h1 {
+  font-size: 1.4rem;
+}
+
+.ebookContent {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  margin: 0 auto;
+  background-color: #ffffff33;
+  border-radius: 10px;
+  padding: 1rem;
+  font-size: 0.7rem;
+}
+
+.ebookContent div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 200px;
+}
+
+.ebookContent img {
+  width: 150px;
+}
+
+@media (min-width: 600px) {
+  .ebookContent {
+    width: 500px;
+    font-size: 0.9rem;
+  }
+}

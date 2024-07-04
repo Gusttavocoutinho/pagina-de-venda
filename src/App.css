@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #eb9f08;
+    --cor1: #1b1b1b;
+}
+
+strong {
+    color: var(--cor0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    color: #fff;
+}
+
+.imgPayment img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #1b1b1b;
+    /* background-color: #F6FCFF; */
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonContainer > a {
+    padding: 20px 30px;
+    background-image: linear-gradient(#d85120, #c58f22);
+    font-weight: 600;
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    box-shadow: -4px 4px 15px rgba(0, 0, 0, 0.493);
+}
+
+.buttonContainer :hover {
+    background-image: linear-gradient(#FD8121, #E3B81E);
+    transform: translate(0px, -3px);
+    transition: transform .3s;
+}
+
+
+
+
+
+
+
+
+

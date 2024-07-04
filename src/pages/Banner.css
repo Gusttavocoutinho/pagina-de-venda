@@ -1,0 +1,53 @@
+#banner {
+  font-size: 62.5%;
+  background-image: url('/background1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bannerConainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 50vh;
+  padding: 0 30px 0 30px; 
+  background-color: #00000075; 
+}
+
+    
+.titleFooter {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.contentFooter {
+  font-size: 1rem;
+
+}
+
+.contentFooter div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+
+.contentFooter p {
+  width: 400px;
+  margin:0 30px 0 30px;
+}
+
+.footerIcon {
+  color:#ECA008;
+}
+
+
+
+
+
+
+
+
+
+

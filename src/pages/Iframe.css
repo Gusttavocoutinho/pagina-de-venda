@@ -1,0 +1,45 @@
+#section1 {
+    font-size: 62.5%;
+    background-image: url('/background2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.iframeContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 100vh;
+    max-width: 700px;
+    margin: auto;
+}
+
+.iframeContent {
+    text-align: center;
+    font-size: 1.2rem;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.iframeContent h3 {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.videoContainer {
+    padding-bottom: 57%;
+    position: relative;
+}
+
+iframe {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.39);
+    border-radius: 20px;
+}
